@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: coin-changing-app-test
-          image: docker.io/<username>/<reponame>:latest
+          image: docker.io/salarabbas24/mlops_classtask:latest
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
